@@ -73,17 +73,17 @@ while True:
          """
     )
     opcion = input("Opcion: ")
-    opcion = int(opcion)
+    #opcion = int(opcion)
 
-    if opcion == 1:
+    if opcion == "1":
         altaDeProducto(productos)
-    elif opcion == 2:
+    elif opcion == "2":
         modificarProducto(productos)
-    elif opcion == 3:
+    elif opcion == "3":
         eliminarProducto(productos)
-    elif opcion == 4:
+    elif opcion == "4":
         mostrarTodos(productos)
-    elif opcion == 5:
-         print ("pruebas")
-    elif opcion == 0:
+    elif opcion == "5":
+        print("pruebas")
+    elif opcion == "0":
         break
