@@ -68,6 +68,7 @@ while True:
          2- Modificacar producto
          3- Eliminar producto
          4- Mostrar todos los productos
+         5- mostrar pruebas
          0- Salir
          """
     )
@@ -82,5 +83,7 @@ while True:
         eliminarProducto(productos)
     elif opcion == 4:
         mostrarTodos(productos)
+    elif opcion == 5:
+         print ("pruebas")
     elif opcion == 0:
         break
