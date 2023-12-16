@@ -74,7 +74,7 @@ def categorizar(listado):
        for producto in listado:
         if codigo_producto == producto["codigo"]:
             producto["categoria"] = categoria_del_producto
-            print(f"se actualizo la categoria del producto {producto["descripcion"]}"  )
+            print(f"se actualizo la categoria del producto {producto['descripcion']}"  )
             grabarArchivo(listado)
             encontrado = True
             break
