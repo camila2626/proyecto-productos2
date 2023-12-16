@@ -1,6 +1,37 @@
 [
   {
-    "codigo": 1,
-    "descripcion": "cartera"
+    "codigo": 101,
+    "descripcion": "coco"
+  },
+  {
+    "codigo": 32,
+    "descripcion": "caramero",
+    "disponible": "si"
+  },
+  {
+    "codigo": 44,
+    "descripcion": "cama",
+    "disponible": "si"
+  },
+  {
+    "codigo": 44,
+    "descripcion": "tijera",
+    "disponible": "si"
+  },
+  {
+    "codigo": 77,
+    "descripcion": "casa",
+    "disponible": "si"
+  },
+  {
+    "codigo": 90,
+    "descripcion": "vaso",
+    "disponible": "no"
+  },
+  "& \"C:/Program Files/Python312/python.exe\" c:/Users/claso/Desktop/proyecto-productos/principal.py",
+  {
+    "codigo": 345,
+    "descripcion": "frasco",
+    "disponible": "si"
   }
 ]
