@@ -62,7 +62,24 @@ def leerProductos():
     archivo.close()
     return listado
 
-    
+def categorizar(listado):
+    print("que cateroria va a asignar?") 
+    categoria_del_producto = input("ingrese categoria ")
+    while True:
+       codigo_producto = input(" codigo producto a cambiar categoria? ")
+       if codigo_producto == "":
+           break
+       codigo_producto = int(codigo_producto)
+       encontrado = False
+       for producto in listado:
+        if codigo_producto == producto["codigo"]:
+            producto["categoria"] = categoria_del_producto
+            print(f"se actualizo la categoria del producto {producto["descripcion"]}"  )
+            grabarArchivo(listado)
+            encontrado = True
+            break
+       if encontrado == False:
+           print("no se encontro el codigo ")
 
 
 # aca empieza el programa
@@ -92,6 +109,9 @@ while True:
         mostrarTodos(productos)
     elif opcion == "5":
         print("pruebas")
+    
+    elif opcion == "6":
+        categorizar(productos)
     
     elif opcion == "0":
         break

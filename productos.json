@@ -26,12 +26,18 @@
   {
     "codigo": 90,
     "descripcion": "vaso",
-    "disponible": "no"
+    "disponible": "no",
+    "categoria": "bazar"
   },
-  "& \"C:/Program Files/Python312/python.exe\" c:/Users/claso/Desktop/proyecto-productos/principal.py",
   {
     "codigo": 345,
     "descripcion": "frasco",
     "disponible": "si"
+  },
+  {
+    "codigo": 11,
+    "descripcion": "cartas",
+    "disponible": "si",
+    "categoria": "papelera"
   }
 ]
