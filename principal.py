@@ -14,6 +14,9 @@ def grabarArchivo(listado):
 
 def altaDeProducto(listado):
     codigo = int(input("codigo:"))
+    if codigo == 0 :
+        codigo = buscarCodigoMayor(listado)+1
+        print(f"codigo usado {codigo}")
     origen= input("origen:" )
     descripcion = input("descripcion: ")
     disponible = input("esta disponible? ")
@@ -75,7 +78,19 @@ def eliminarProducto(listado):
             grabarArchivo(listado)
             break
 
+def migracion1(listado):
+    for producto in listado:
+        if not 'origen' in producto:
+            producto['origen'] = None
+    grabarArchivo(listado)
 
+def buscarCodigoMayor(listado):
+    mayor = 0
+    for producto in listado:
+        if producto['codigo'] > mayor:
+            mayor = producto['codigo']
+    return mayor
+    
 def mostrarTodos(listado):
     print(listado)
 

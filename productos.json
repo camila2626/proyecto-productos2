@@ -2,50 +2,59 @@
   {
     "codigo": 101,
     "descripcion": "frutas",
-    "categoria": "golosina"
+    "categoria": "golosina",
+    "origen": null
   },
   {
     "codigo": 32,
     "descripcion": "caramero",
-    "disponible": "si"
+    "disponible": "si",
+    "origen": null
   },
   {
     "codigo": 44,
     "descripcion": "cama",
-    "disponible": "si"
+    "disponible": "si",
+    "origen": null
   },
   {
     "codigo": 44,
     "descripcion": "tijera",
-    "disponible": "si"
+    "disponible": "si",
+    "origen": null
   },
   {
     "codigo": 77,
     "descripcion": "casa",
-    "disponible": "si"
+    "disponible": "si",
+    "origen": null
   },
   {
     "codigo": 90,
     "descripcion": "vaso",
     "disponible": "no",
-    "categoria": "bazar"
+    "categoria": "bazar",
+    "origen": "argentina"
   },
   {
     "codigo": 345,
     "descripcion": "frasco",
-    "disponible": "si"
+    "disponible": "si",
+    "origen": null
   },
   {
     "codigo": 1234,
     "descripcion": "carne",
     "disponible": "si",
-    "categoria": "alimento"
+    "categoria": "alimento",
+    "origen": null
   },
   {
     "codigo": 2324,
     "descripcion": "chau",
     "disponible": "si",
-    "categoria": "saludo2"
+    "categoria": "saludo2",
+    "origen": null
   },
   {
     "codigo": 2122,
@@ -60,5 +69,12 @@
     "disponible": "no",
     "categoria": "blanqueria",
     "origen": "arg"
+  },
+  {
+    "codigo": 4344,
+    "descripcion": "casa",
+    "disponible": "si",
+    "categoria": "inmueble",
+    "origen": "argentina"
   }
 ]
