@@ -129,7 +129,7 @@ while True:
     print(
         f"""
          1- Alta de producto
-         2- Modificacar producto
+         2- Modificar producto
          3- Eliminar producto
          4- Mostrar todos los productos
          5- categorizar
