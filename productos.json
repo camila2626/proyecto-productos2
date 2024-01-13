@@ -1,7 +1,8 @@
 [
   {
     "codigo": 101,
-    "descripcion": "coco"
+    "descripcion": "frutas",
+    "categoria": "golosina"
   },
   {
     "codigo": 32,
@@ -39,5 +40,24 @@
     "descripcion": "cartas",
     "disponible": "si",
     "categoria": "papelera"
+  },
+  {
+    "codigo": 1234,
+    "descripcion": "carne",
+    "disponible": "si",
+    "categoria": "alimento"
+  },
+  {
+    "codigo": 2324,
+    "descripcion": "chau",
+    "disponible": "si",
+    "categoria": "saludo2"
+  },
+  {
+    "codigo": 2122,
+    "descripcion": "caja musical",
+    "disponible": "si",
+    "categoria": "importado",
+    "origen": "australia"
   }
 ]
