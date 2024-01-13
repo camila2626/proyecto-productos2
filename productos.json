@@ -36,12 +36,6 @@
     "disponible": "si"
   },
   {
-    "codigo": 11,
-    "descripcion": "cartas",
-    "disponible": "si",
-    "categoria": "papelera"
-  },
-  {
     "codigo": 1234,
     "descripcion": "carne",
     "disponible": "si",

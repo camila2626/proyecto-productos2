@@ -63,11 +63,10 @@ def modificarProducto(listado):
             if nuevaDisponibilidad!= "0" and nuevaDisponibilidad!= "":
                 producto["disponible"] = nuevaDisponibilidad
                 print("se modifico la disponibilidad")
-            else :
-                print("no valido")
             grabarArchivo(listado)
             break
         
+
 def eliminarProducto(listado):
     codigoAbuscar = int(input("ingresa el codigo del producto a eliminar: "))
     for producto in listado:
@@ -137,4 +136,5 @@ while True:
         categorizar(productos)
     
     elif opcion == "0":
+        print("estas por salir")
         break
