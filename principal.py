@@ -39,20 +39,32 @@ def modificarProducto(listado):
                 f"{producto['categoria']} Ingrese la nueva categoria (si ingresa 0 no se modifica): "
             )
             nuevoOrigen = input(
-                f"{producto['origen']} Ingrese el nuev origen (si ingresa 0 no se modifica): "
+                f"{producto['origen']} Ingrese el nuevo origen (si ingresa 0 no se modifica): "
+            )
+            nuevaDisponibilidad = input(
+                f"{producto['disponible']} Ingrese  si esta disponible o no  (si ingresa 0 no se modifica): "
             )
             if nuevaDescricion != "0" and nuevaDescricion != "":
                 producto["descripcion"] = nuevaDescricion
+                print("se modifico la descripcion")
 
             if nuevoCodigo != "0" and nuevoCodigo != "":
                 producto["codigo"] = int(nuevoCodigo)
-            
+                print("se modifico el codigo")
+
             if nuevaCategoria!= "0" and nuevaCategoria!= "":
                 producto["categoria"] = nuevaCategoria
+                print("se modifico la categoria")
 
             if nuevoOrigen!= "0" and nuevoOrigen!= "":
                 producto["origen"] = nuevoOrigen
+                print("se modifico el origen")
 
+            if nuevaDisponibilidad!= "0" and nuevaDisponibilidad!= "":
+                producto["disponible"] = nuevaDisponibilidad
+                print("se modifico la disponibilidad")
+            else :
+                print("no valido")
             grabarArchivo(listado)
             break
         

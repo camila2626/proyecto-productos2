@@ -59,5 +59,12 @@
     "disponible": "si",
     "categoria": "importado",
     "origen": "australia"
+  },
+  {
+    "codigo": 4343,
+    "descripcion": "sabana",
+    "disponible": "no",
+    "categoria": "blanqueria",
+    "origen": "arg"
   }
 ]
